@@ -15,8 +15,9 @@ memberships from one user account to another user account.
 
 - Windows 10/11
 - PowerShell
-- Microsoft 365 administrator account
+- Microsoft 365 administrator account with User administrator Rights
 - Required Microsoft PowerShell modules
+- Required Microsoft Graph Permission
 - Internet connection
 
 ## Installation
@@ -30,10 +31,10 @@ Alternatively, download the PowerShell script directly from this repository.
 1. Download the tool.
 2. Open PowerShell.
 3. Run the PowerShell script.
-4. Authenticate using your Microsoft 365 administrator account.
+4. Authenticate using your Microsoft 365 administrator account via graph.
 5. Select or enter the source user.
 6. Select or enter the destination user.
-7. Review the group memberships.
+7. Review and select the group memberships.
 8. Start the copy operation.
 
 ## Important
